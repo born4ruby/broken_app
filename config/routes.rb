@@ -5,9 +5,9 @@ Tm::Application.routes.draw do
   
 
 
+  devise_for :users
 
-
-  devise_for :users do
+  devise_scope :user do
     match 'register/' => "devise/registrations#new"
     match 'register/:free_plan' => "devise/registrations#new"
     

@@ -15,7 +15,7 @@ gem 'fog', '~> 1.10.1'
 gem 'newrelic_rpm'
 gem 'airbrake'
 
-gem 'state_select', :git => 'git://github.com/stormsilver/state_select.git'
+gem 'state_select'#, :git => 'git://github.com/stormsilver/state_select.git'
 # Gems used only for assets and not required
 # in production environments by default.
 
@@ -50,7 +50,7 @@ gem 'puma', :github => 'puma/puma'
 gem 'stripe'
 gem 'faye'
 #gem 'thin'
-gem 'rufus-scheduler'
+gem 'rufus-scheduler', '2.0.24'
 gem 'sidekiq'
 gem 'sinatra', require: false
 gem 'slim'
